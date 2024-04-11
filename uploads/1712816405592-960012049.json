@@ -1,0 +1,579 @@
+{
+    "title": "Modbus_service_issue",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1599,
+            "height": 778,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "chrome://new-tab-page/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "chrome://new-tab-page/",
+                    "title": "New Tab"
+                }
+            ]
+        },
+        {
+            "type": "navigate",
+            "url": "http://10.91.28.90/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://10.91.28.90/",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "#input-login-password"
+                ],
+                [
+                    "xpath///*[@id=\"input-login-password\"]"
+                ],
+                [
+                    "pierce/#input-login-password"
+                ]
+            ],
+            "offsetY": 15.609375,
+            "offsetX": 92
+        },
+        {
+            "type": "change",
+            "value": "service",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "#input-login-password"
+                ],
+                [
+                    "xpath///*[@id=\"input-login-password\"]"
+                ],
+                [
+                    "pierce/#input-login-password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Log in",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "#login > div:nth-of-type(3) span"
+                ],
+                [
+                    "xpath///*[@id=\"button-login-login\"]/span"
+                ],
+                [
+                    "pierce/#login > div:nth-of-type(3) span"
+                ],
+                [
+                    "text/Log in"
+                ]
+            ],
+            "offsetY": 14.0625,
+            "offsetX": 23.84375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "li.ant-menu-submenu-active span.ant-menu-title-content"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/aside/div/div[2]/ul/li[2]/div/span[2]"
+                ],
+                [
+                    "pierce/li.ant-menu-submenu-active span.ant-menu-title-content"
+                ]
+            ],
+            "offsetY": 10,
+            "offsetX": 161
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "li.ant-menu-submenu-active span.ant-menu-title-content"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/aside/div/div[2]/ul/li[2]/div/span[2]"
+                ],
+                [
+                    "pierce/li.ant-menu-submenu-active span.ant-menu-title-content"
+                ]
+            ],
+            "offsetY": 10,
+            "offsetX": 161
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Discovery[role=\"link\"]"
+                ],
+                [
+                    "li.ant-menu-item-active a"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/aside/div/div[2]/ul/li[3]/span[2]/a"
+                ],
+                [
+                    "pierce/li.ant-menu-item-active a"
+                ],
+                [
+                    "text/Discovery"
+                ]
+            ],
+            "offsetY": 4,
+            "offsetX": 138
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Add a new discovery range",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "div.ant-card-body span"
+                ],
+                [
+                    "xpath///*[@id=\"button-discoveryTable-add\"]/span"
+                ],
+                [
+                    "pierce/div.ant-card-body span"
+                ],
+                [
+                    "text/Add a new discovery range"
+                ]
+            ],
+            "offsetY": 3.21875,
+            "offsetX": 68.796875
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "td:nth-of-type(3) > div:nth-of-type(1) div:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"input-mk5udp-min-16befdd6-d749-4aa9-9852-9b00dfc9d5a1\"]/div[1]/input"
+                ],
+                [
+                    "pierce/td:nth-of-type(3) > div:nth-of-type(1) div:nth-of-type(1) > input"
+                ]
+            ],
+            "offsetY": 15.671875,
+            "offsetX": 4.796875
+        },
+        {
+            "type": "change",
+            "value": "127",
+            "selectors": [
+                [
+                    "td:nth-of-type(3) > div:nth-of-type(1) div:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"input-mk5udp-min-16befdd6-d749-4aa9-9852-9b00dfc9d5a1\"]/div[1]/input"
+                ],
+                [
+                    "pierce/td:nth-of-type(3) > div:nth-of-type(1) div:nth-of-type(1) > input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "td:nth-of-type(3) > div:nth-of-type(1) div:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath///*[@id=\"input-mk5udp-min-16befdd6-d749-4aa9-9852-9b00dfc9d5a1\"]/div[2]/input"
+                ],
+                [
+                    "pierce/td:nth-of-type(3) > div:nth-of-type(1) div:nth-of-type(2) > input"
+                ]
+            ],
+            "offsetY": 3.671875,
+            "offsetX": 17.546875
+        },
+        {
+            "type": "change",
+            "value": "0",
+            "selectors": [
+                [
+                    "td:nth-of-type(3) > div:nth-of-type(1) div:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath///*[@id=\"input-mk5udp-min-16befdd6-d749-4aa9-9852-9b00dfc9d5a1\"]/div[2]/input"
+                ],
+                [
+                    "pierce/td:nth-of-type(3) > div:nth-of-type(1) div:nth-of-type(2) > input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "td:nth-of-type(3) > div:nth-of-type(1) div:nth-of-type(3) > input"
+                ],
+                [
+                    "xpath///*[@id=\"input-mk5udp-min-16befdd6-d749-4aa9-9852-9b00dfc9d5a1\"]/div[3]/input"
+                ],
+                [
+                    "pierce/td:nth-of-type(3) > div:nth-of-type(1) div:nth-of-type(3) > input"
+                ]
+            ],
+            "offsetY": 9.671875,
+            "offsetX": 12.296875
+        },
+        {
+            "type": "change",
+            "value": "0",
+            "selectors": [
+                [
+                    "td:nth-of-type(3) > div:nth-of-type(1) div:nth-of-type(3) > input"
+                ],
+                [
+                    "xpath///*[@id=\"input-mk5udp-min-16befdd6-d749-4aa9-9852-9b00dfc9d5a1\"]/div[3]/input"
+                ],
+                [
+                    "pierce/td:nth-of-type(3) > div:nth-of-type(1) div:nth-of-type(3) > input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "td:nth-of-type(3) > div:nth-of-type(2) div:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"input-mk5udp-max-16befdd6-d749-4aa9-9852-9b00dfc9d5a1\"]/div[1]/input"
+                ],
+                [
+                    "pierce/td:nth-of-type(3) > div:nth-of-type(2) div:nth-of-type(1) > input"
+                ]
+            ],
+            "offsetY": 0.671875,
+            "offsetX": 11.796875
+        },
+        {
+            "type": "change",
+            "value": "127",
+            "selectors": [
+                [
+                    "td:nth-of-type(3) > div:nth-of-type(2) div:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"input-mk5udp-max-16befdd6-d749-4aa9-9852-9b00dfc9d5a1\"]/div[1]/input"
+                ],
+                [
+                    "pierce/td:nth-of-type(3) > div:nth-of-type(2) div:nth-of-type(1) > input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "td:nth-of-type(3) > div:nth-of-type(2) div:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath///*[@id=\"input-mk5udp-max-16befdd6-d749-4aa9-9852-9b00dfc9d5a1\"]/div[2]/input"
+                ],
+                [
+                    "pierce/td:nth-of-type(3) > div:nth-of-type(2) div:nth-of-type(2) > input"
+                ]
+            ],
+            "offsetY": 9.671875,
+            "offsetX": 13.546875
+        },
+        {
+            "type": "change",
+            "value": "0",
+            "selectors": [
+                [
+                    "td:nth-of-type(3) > div:nth-of-type(2) div:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath///*[@id=\"input-mk5udp-max-16befdd6-d749-4aa9-9852-9b00dfc9d5a1\"]/div[2]/input"
+                ],
+                [
+                    "pierce/td:nth-of-type(3) > div:nth-of-type(2) div:nth-of-type(2) > input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "td:nth-of-type(3) > div:nth-of-type(2) div:nth-of-type(3) > input"
+                ],
+                [
+                    "xpath///*[@id=\"input-mk5udp-max-16befdd6-d749-4aa9-9852-9b00dfc9d5a1\"]/div[3]/input"
+                ],
+                [
+                    "pierce/td:nth-of-type(3) > div:nth-of-type(2) div:nth-of-type(3) > input"
+                ]
+            ],
+            "offsetY": 14.671875,
+            "offsetX": 7.296875
+        },
+        {
+            "type": "change",
+            "value": "0",
+            "selectors": [
+                [
+                    "td:nth-of-type(3) > div:nth-of-type(2) div:nth-of-type(3) > input"
+                ],
+                [
+                    "xpath///*[@id=\"input-mk5udp-max-16befdd6-d749-4aa9-9852-9b00dfc9d5a1\"]/div[3]/input"
+                ],
+                [
+                    "pierce/td:nth-of-type(3) > div:nth-of-type(2) div:nth-of-type(3) > input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Save"
+                ],
+                [
+                    "#button-save"
+                ],
+                [
+                    "xpath///*[@id=\"button-save\"]"
+                ],
+                [
+                    "pierce/#button-save"
+                ]
+            ],
+            "offsetY": 17.21875,
+            "offsetX": 46.75
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Discover"
+                ],
+                [
+                    "#button-discover-16befdd6-d749-4aa9-9852-9b00dfc9d5a1"
+                ],
+                [
+                    "xpath///*[@id=\"button-discover-16befdd6-d749-4aa9-9852-9b00dfc9d5a1\"]"
+                ],
+                [
+                    "pierce/#button-discover-16befdd6-d749-4aa9-9852-9b00dfc9d5a1"
+                ]
+            ],
+            "offsetY": 15.21875,
+            "offsetX": 9.25
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "li.ant-menu-submenu-active span.ant-menu-title-content"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/aside/div/div[2]/ul/li[5]/div/span[2]"
+                ],
+                [
+                    "pierce/li.ant-menu-submenu-active span.ant-menu-title-content"
+                ],
+                [
+                    "text/Connectivity"
+                ]
+            ],
+            "offsetY": 12,
+            "offsetX": 143
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Modbus[role=\"link\"]"
+                ],
+                [
+                    "li.ant-menu-item-active a"
+                ],
+                [
+                    "xpath///*[@id=\"rc-menu-uuid-64334-1-connectivity-popup\"]/li[2]/span[2]/a"
+                ],
+                [
+                    "pierce/li.ant-menu-item-active a"
+                ],
+                [
+                    "text/Modbus"
+                ]
+            ],
+            "offsetY": 5,
+            "offsetX": 84
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.ac-form-item-tcp\\,enable span.ant-checkbox > span"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/div/div/div/main/div/div/div/div[2]/form/div[1]/div/div[2]/div/div/label/span[1]/span"
+                ],
+                [
+                    "pierce/div.ac-form-item-tcp\\,enable span.ant-checkbox > span"
+                ]
+            ],
+            "offsetY": 15.125,
+            "offsetX": 4.796875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Save",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "div:nth-of-type(17) div.ant-form-item-control > div > div > div > div:nth-of-type(1) span"
+                ],
+                [
+                    "xpath///*[@id=\"button-save\"]/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(17) div.ant-form-item-control > div > div > div > div:nth-of-type(1) span"
+                ],
+                [
+                    "text/Save"
+                ]
+            ],
+            "offsetY": 2.421875,
+            "offsetX": 5.421875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.ac-form-item-tcp\\,enable span.ant-checkbox > span"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/div/div/div/main/div/div/div/div[2]/form/div[1]/div/div[2]/div/div/label/span[1]/span"
+                ],
+                [
+                    "pierce/div.ac-form-item-tcp\\,enable span.ant-checkbox > span"
+                ]
+            ],
+            "offsetY": 2.125,
+            "offsetX": 15.421875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.ac-form-item-tcp\\,enable span:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/div/div/div/main/div/div/div/div[2]/form/div[1]/div/div[2]/div/div/label/span[2]"
+                ],
+                [
+                    "pierce/div.ac-form-item-tcp\\,enable span:nth-of-type(2)"
+                ]
+            ],
+            "offsetY": 8.5625,
+            "offsetX": 119.796875,
+            "duration": 648
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.ac-form-item-tcp\\,enable div.ant-form-item-control > div > div"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/div/div/div/main/div/div/div/div[2]/form/div[1]/div/div[2]/div/div"
+                ],
+                [
+                    "pierce/div.ac-form-item-tcp\\,enable div.ant-form-item-control > div > div"
+                ]
+            ],
+            "offsetY": 15.5625,
+            "offsetX": 196.796875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Enable Modbus TCP  "
+                ],
+                [
+                    "#checkbox-tcp-enable"
+                ],
+                [
+                    "xpath///*[@id=\"checkbox-tcp-enable\"]"
+                ],
+                [
+                    "pierce/#checkbox-tcp-enable"
+                ]
+            ],
+            "offsetY": 5.125,
+            "offsetX": 5.796875,
+            "assertedEvents": [
+                {
+                    "type": "navigation"
+                }
+            ]
+        }
+    ]
+}
